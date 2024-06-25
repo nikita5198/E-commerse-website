@@ -1,0 +1,181 @@
+.center-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card .product-image img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+}
+.product-card h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card .description{
+    font-size: 18px;
+    color: #555;
+}
+
+.product-card .price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.product-card .category{
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.product-card .heart-icon{
+    font-size: 24px;
+    color: #ff4081;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.review-list{
+    margin-top: 30px;
+}
+
+.review-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.review-card .review-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.review-card h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.review-card {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 1000px;
+  margin: 16px auto;
+}
+
+.review-card h2 {
+margin-left: 20px;
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.rating {
+    margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.rating mat-icon {
+  color: gold;
+  font-size: 24px;
+  margin-right: 2px;
+}
+
+.username {
+  font-size: 16px;
+  color: #555;
+  margin-left: 30px;
+}
+
+.faq-list{
+    margin-top: 30px;
+}
+
+.faq-card{
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   margin-bottom: 20px;
+   padding: 20px; 
+}
+
+.faq-card .details-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-card .question,
+.faq-card .answer{
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.section-heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+    text-align: center;
+}
+
+.small-image{
+    max-width: 80px;
+    max-height: 60px;
+}
+.faq-card{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px; 
+}
+.faq-card .faq-details{
+    font-size: 16px;
+    color: #333;
+}
+
+.faq-card .question,
+.faq-card .answer{
+    font-weight: 600;
+    color: #413e3e;
+    margin-bottom: 5px;
+}
+
+.faq-card .question-text,
+.faq-card .answer-text{
+    margin-left: 20px;
+}
+
+
